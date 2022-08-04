@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-! [this_is_an_image](risk.png)
+![this_is_an_image](risk.png)
 
 The goal of this project was for me to use various machine learning methods to predict credit card risk. The six methods are Naive Random Oversampling, SMOTE Oversampling, Undersampling with Cluster Centroids, SMOTEENN Over and Under Sampling Combination, Balanced Random Forest Classifier, and Easy Ensemble AdaBoost Classifier.
 
@@ -8,33 +8,33 @@ The goal of this project was for me to use various machine learning methods to p
 
 Naive Random Oversampling makes all classes represented by their decision function. Essentially this method of machine learning helps balance out the classes when there is an imbalance between data points by randomly selecting minority data points. The results of this method had a recall of 57% for high risk loans and only had an accuracy of 63%.
 
-! [this_is_an_image](matrix_random.png)
+![this_is_an_image](matrix_random.png)
 
-! [this_is_an_image](report_random.png)
+![this_is_an_image](report_random.png)
 
 # SMOTE Oversampling
 
 SMOTE Oversampling basically creates new data points for a minority class. The results of this method had a recall of 62% for high risk loans and only had an accuracy of 63%. Not much better than the previous method.
 
-! [this_is_an_image](matrix_smote.png)
+![this_is_an_image](matrix_smote.png)
 
-! [this_is_an_image](report_smote.png)
+![this_is_an_image](report_smote.png)
 
 # Undersampling with Cluster Centroids
 
 Undersampling with Cluster Centroids creates data points as well, but this time for the majority class. Once it does that, it undersamples the majority class to create balance with the minority class. The results of this method had a recall of 59% for high risk loans and only had an accuracy of 50%. The results using this method were especially bad.
 
-! [this_is_an_image](matrix_undersampling.png)
+![this_is_an_image](matrix_undersampling.png)
 
-! [this_is_an_image](report_undersampling.png)
+![this_is_an_image](report_undersampling.png)
 
 # SMOTEENN Over and Undersampling Combination
 
 SMOTEENN Over and Undersampling Combination is SMOTE but then data points are dropped. The data points that are dropped is determined by their proximity to other data points of different classes. The results of this method had a recall of 69% for high risk loans and only had an accuracy of 62%.
 
-! [this_is_an_image](matrix_smoteenn.png)
+![this_is_an_image](matrix_smoteenn.png)
 
-! [this_is_an_image](matrix_smoteenn.png)
+![this_is_an_image](matrix_smoteenn.png)
 
 # Summary:
 
