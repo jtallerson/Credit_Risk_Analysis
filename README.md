@@ -34,7 +34,7 @@ SMOTEENN Over and Undersampling Combination is SMOTE but then data points are dr
 
 ![this_is_an_image](matrix_smoteenn.PNG)
 
-![this_is_an_image](matrix_smoteenn.PNG)
+![this_is_an_image](report_smoteenn.PNG)
 
 # Summary:
 
